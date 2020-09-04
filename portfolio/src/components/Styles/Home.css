@@ -1,5 +1,11 @@
 .test {
   background-color: pink !important;
+  padding-top: 2% !important;
+  
+}
+
+#body {
+  background-color: pink !important;
 }
 
 #preview-shadow {

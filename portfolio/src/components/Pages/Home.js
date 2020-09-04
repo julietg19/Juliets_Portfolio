@@ -3,7 +3,7 @@ import "../Styles/Home.css";
 
 export default function home() {
   return (
-    <div>
+    <div id="body">
       <section id="banner">
         <div class="jumbotron test">
           <h1 class="display-4">Hi, my name is Juliet</h1>
