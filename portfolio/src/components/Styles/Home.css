@@ -1,6 +1,7 @@
 .jumbotron {
   background-color: pink !important;
-  padding-top: 2% !important;
+  padding-top: 0% !important;
+  padding-bottom: 0%;
   font-family: "Lora", serif;
   color: white !important;
 }
@@ -28,4 +29,6 @@
 
 #info {
   min-height: 100vh !important;
+  background-color: #fadde1;
+  padding-top: 1%;
 }

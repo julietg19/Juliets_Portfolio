@@ -13,7 +13,7 @@ export default function home() {
           </p>
         </div>
       </section>
-      <section className="container" id="info">
+      <section id="info">
         <div className="row">
           <div className="col-4">
             <img src="https://picsum.photos/300/300"></img>
