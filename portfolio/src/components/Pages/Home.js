@@ -5,7 +5,7 @@ export default function home() {
   return (
     <div id="body">
       <section id="banner">
-        <div class="jumbotron test">
+        <div class="jumbotron">
           <h1 class="display-4">Hi, my name is Juliet</h1>
           <p class="lead">
             This is a simple hero unit, a simple jumbotron-style component for
@@ -16,7 +16,7 @@ export default function home() {
       <section className="container" id="info">
         <div className="row">
           <div className="col-4">
-            <img src="https://picsum.photos/200/200"></img>
+            <img src="https://picsum.photos/300/300"></img>
           </div>
           <div className="col-8">
             <div id="preview-shadow">
