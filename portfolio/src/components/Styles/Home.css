@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .jumbotron {
   background-color: pink !important;
   padding-top: 0% !important;

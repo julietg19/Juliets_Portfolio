@@ -15,10 +15,10 @@ export default function home() {
       </section>
       <section id="info">
         <div className="row">
-          <div className="col-4">
+          <div className="col-xs-12 col-md-5">
             <img src="https://picsum.photos/300/300"></img>
           </div>
-          <div className="col-8">
+          <div className="col-xs-12 col-md-7">
             <div id="preview-shadow">
               <div id="preview">
                 <h1>About me</h1>
