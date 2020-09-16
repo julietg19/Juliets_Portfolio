@@ -6,7 +6,7 @@ export default function ProjectItem({
 }) {
   return (
     <div className="col-md-4">
-      <img src={imageUrl} alt="test" />
+      <img src={imageUrl} className="img-fluid" alt="test" />
       <a className="d-block" href={githubLink} target="_blank">
         github
       </a>
@@ -16,4 +16,3 @@ export default function ProjectItem({
     </div>
   );
 }
-

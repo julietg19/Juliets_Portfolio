@@ -6,9 +6,9 @@ export default class ProjectsPage extends Component {
     projects: [
       {
         id: 1,
-        imageUrl: "https://picsum.photos/300/300",
-        githubLink: "https://github.com",
-        deployLink: "https://google.com",
+        imageUrl: "https://i.imgur.com/HW5ty7g.png",
+        githubLink: "https://github.com/julietg19/EmployeeDirectory",
+        deployLink: "https://employeedirectory19.herokuapp.com/",
       },
       {
         id: 2,
@@ -30,9 +30,9 @@ export default class ProjectsPage extends Component {
       <div className="container">
         <h2>projects</h2>
         <div className="row">
-        {this.state.projects.map((project) => (
-          <ProjectItem key={project.id} project={project} />
-        ))}
+          {this.state.projects.map((project) => (
+            <ProjectItem key={project.id} project={project} />
+          ))}
         </div>
       </div>
     );
