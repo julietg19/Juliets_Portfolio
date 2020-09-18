@@ -13,7 +13,7 @@ export default function home() {
       <section id="info">
         <div className="row">
           <div className="col-xs-12 col-md-5">
-            <img src="https://picsum.photos/300/300"></img>
+            <img src="https://i.imgur.com/3er40bp.jpg"></img>
           </div>
           <div className="col-xs-12 col-md-7">
             <div id="preview-shadow">
