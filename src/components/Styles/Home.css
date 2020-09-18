@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: pink;
+}
+
+.jumbotron {
+  background-color: var(--main-color) !important;
+  padding-top: 0% !important;
+  padding-bottom: 0%;
+  font-family: "Lora", serif;
+  color: white !important;
+}
+
+#body {
+  background-color: var(--main-color) !important;
+}
+
+#preview-shadow {
+  background-color: #72b68a;
+  border-radius: 50% 20% / 10% 40%;
+  width: 600px;
+  height: 180px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#preview {
+  width: 600px;
+  background-color: rgb(251, 249, 243, 0.6);
+  border-radius: 50% 20% / 10% 40%;
+  padding: 15px 25px;
+  position: relative;
+  font-family: "Lora", serif;
+}
+
+#info {
+  min-height: 100vh !important;
+  background-color: #fadde1;
+  padding-top: 1%;
+}
