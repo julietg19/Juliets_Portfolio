@@ -12,15 +12,16 @@ export default class ProjectsPage extends Component {
       },
       {
         id: 2,
-        imageUrl: "https://picsum.photos/300/300",
-        githubLink: "https://github.com",
-        deployLink: "https://google.com",
+        imageUrl: "https://i.imgur.com/c0tPTa0.png",
+        githubLink: "https://github.com/julietg19/FitnessTracker",
+        deployLink:
+          "https://fitness-tracker19.herokuapp.com/?id=5f63f13aaeeed33b442f0cdf",
       },
       {
         id: 3,
-        imageUrl: "https://picsum.photos/300/300",
-        githubLink: "https://github.com",
-        deployLink: "https://google.com",
+        imageUrl: "https://i.imgur.com/9DPo6r3.png",
+        githubLink: "https://github.com/julietg19/NoteTaker",
+        deployLink: "https://notetaker19.herokuapp.com/",
       },
     ],
     project: {},
