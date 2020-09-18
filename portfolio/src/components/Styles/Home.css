@@ -2,8 +2,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-color: pink;
+}
+
 .jumbotron {
-  background-color: pink !important;
+  background-color: var(--main-color) !important;
   padding-top: 0% !important;
   padding-bottom: 0%;
   font-family: "Lora", serif;
@@ -11,7 +15,7 @@
 }
 
 #body {
-  background-color: pink !important;
+  background-color: var(--main-color) !important;
 }
 
 #preview-shadow {
