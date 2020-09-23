@@ -15,6 +15,7 @@ export default function home() {
           <div className="col-xs-12 col-md-5">
             <img src="https://i.imgur.com/3er40bp.jpg?1"></img>
           </div>
+
           <div className="col-xs-12 col-md-7">
             <div id="preview-shadow">
               <div id="preview">

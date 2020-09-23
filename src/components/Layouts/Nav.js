@@ -29,6 +29,11 @@ export default function Nav() {
                 Projects
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="https://github.com/julietg19">
+                Github
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
